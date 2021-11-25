@@ -468,7 +468,7 @@ function build() {
     make install
 
   elif [ "$TYPE" == "emscripten" ]; then
-    source /emsdk/emsdk_env.sh
+    source /home/jonathan/emsdk/emsdk_env.sh # full path needed here (paste your own path)
 
     cd ${BUILD_DIR}/${1}
     
